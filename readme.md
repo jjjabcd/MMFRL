@@ -36,6 +36,13 @@ After downloading the whole-dataset from nmrshiftdb2, we only keep the atom peak
 
 ## Usage
 
+```bash
+conda create -n mmfrl python=3.10 -y
+conda activate mmfrl
+pip install -r requriements.txt
+```
+
+
 Before running pretraining, please download the model.ckpt file for the Img2mol[1] model (~2.4GB) from the link: [Img2mol](https://drive.google.com/file/d/1pk21r4Zzb9ZJkszJwP9SObTlfTaRMMtF/view)],
 and then put it under /pretraining/ImageModels/PretrainedWeights/
 
